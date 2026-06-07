@@ -14,6 +14,7 @@ app.use(express.json());
 
 app.use('/api/auth', authRoutes);
 app.use('/api/tasks', taskRoutes);
+app.get('/health', (req, res) => res.json({ status: 'ok' }));
 
 app.use((err, req, res, next) => {
   const status = err.status || 500;
