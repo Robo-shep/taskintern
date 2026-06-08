@@ -12,6 +12,10 @@ A full-stack Task Management app built with MongoDB, Express.js, React.js, and N
 - Server-side pagination (6 tasks per page)
 - Responsive UI — works on mobile, tablet, and desktop
 
+## Deployment Stack
+- Vercel - Frontend
+- Render - Backend
+- MongoDB - Data Base 
 ---
 
 ## Project Structure
@@ -48,7 +52,7 @@ taskintern/
 ### 1. Clone the repo
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Robo-shep/taskintern.git
 cd taskintern
 ```
 
